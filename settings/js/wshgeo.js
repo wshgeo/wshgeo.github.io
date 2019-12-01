@@ -13,7 +13,12 @@
             };
             tabParamter.tabWidth = (tabs[i].style == "small") ? ((100/tabs.length) + '%') : "50%";
             tabParamter.maxHeight = ($("html").css("width") < "500px") ? "350px" : "9999px";
-            var tabHtmlStr = "<div class='"+ tabParamter.className +"' style='width:"+ tabParamter.tabWidth +";height:100%;min-width:400px;max-height:"+ tabParamter.maxHeight +"'>";
+            if($("html").css("width") < "500px"){
+                var tabHtmlStr = "<div class='"+ tabParamter.className +"' style='width:"+ tabParamter.tabWidth +";height:100%;min-width:400px;max-height:"+ tabParamter.maxHeight +"'>";
+            }
+            else{
+                var tabHtmlStr = "<div class='"+ tabParamter.className +"' style='width:"+ tabParamter.tabWidth +";height:100%;'>";
+            }
             tabHtmlStr += "<div class='tab-normal-title'><table align='center'><tr><td>"+ tabParamter.title +"</td></tr><tr><td><img src='"+ tabParamter.titleImgUrl +"'></img></td></tr></table></div>"
             tabHtmlStr += "<a class='tab-normal-body' href='"+ tabParamter.bodyHref +"'><table align='center'><tr><td><img src='"+ tabParamter.bodyImgUrl +"'></img></td></tr></table></a>"
             tabHtmlStr += "</div>"
