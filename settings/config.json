@@ -4,7 +4,7 @@ var config={
             "title":"资料",
             "titleImgUrl":"https://github.com/wshgeo/wshgeo.github.io/blob/master/settings/img/pic/down.gif",
             "bodyImgUrl":"https://github.com/wshgeo/wshgeo.github.io/blob/master/settings/img/pic/read.jpg",
-            "bodyHref":".https://github.com/wshgeo/wshgeo.github.io/blob/master/资料/卷一 魏书一 武帝纪第一.htm",
+            "bodyHref":"https://github.com/wshgeo/wshgeo.github.io/blob/master/资料/卷一 魏书一 武帝纪第一.htm",
             "style":"normal"
         },
         {
