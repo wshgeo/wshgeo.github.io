@@ -4,7 +4,7 @@ var config={
             "title":"资料",
             "titleImgUrl":"./settings/img/pic/down.gif",
             "bodyImgUrl":"./settings/img/pic/read.jpg",
-            "bodyHref":"./资料/卷一 魏书一 武帝纪第一.htm",
+            "bodyHref":"../资料/卷一 魏书一 武帝纪第一.htm",
             "style":"normal"
         },
         {
