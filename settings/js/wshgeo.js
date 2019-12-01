@@ -1,8 +1,7 @@
 (function(){
     $(document).ready(function(){
-        console.log(this.config);
         var tabs = config.tab;
-        console.log($("html").css("height"));
+//         console.log($("html").css("height"));
         for(var i=0; i<tabs.length; i++){
             var tabParamter = {
                 className : config.tabStyleName[tabs[i].style],
@@ -20,5 +19,13 @@
             var tabHtml= $.parseHTML(tabHtmlStr);
             $(".container").append(tabHtml);
         }
+        tabParamter.setTabWidth = this.setTabWidth = function(mode){
+            tabParamter.tabWidth = (mode == "small") ? ((100/tabs.length) + '%') : "50%";
+            $("."+tabParamter.className).css("width",tabParamter.tabWidth);
+        }
+        $(".display-mode").change(function(){
+            var display_mode = $(this).children('option:selected').val();
+            tabParamter.setTabWidth(display_mode);
+        });
     });
 })()
