@@ -2,30 +2,30 @@ var config={
     "tab":[
         {
             "title":"资料",
-            "titleImgUrl":"../wshgeo/settings/img/pic/down.gif",
-            "bodyImgUrl":"../wshgeo/settings/img/pic/read.jpg",
-            "bodyHref":"../wshgeo/资料/卷一 魏书一 武帝纪第一.htm",
+            "titleImgUrl":"../settings/img/pic/down.gif",
+            "bodyImgUrl":"../settings/img/pic/read.jpg",
+            "bodyHref":"../资料/卷一 魏书一 武帝纪第一.htm",
             "style":"normal"
         },
         {
             "title":"地图讲故事",
-            "titleImgUrl":"../wshgeo/settings/img/pic/down.gif",
-            "bodyImgUrl":"../wshgeo/settings/img/pic/hanDaiMap.jpg",
+            "titleImgUrl":"../settings/img/pic/down.gif",
+            "bodyImgUrl":"../settings/img/pic/hanDaiMap.jpg",
             "bodyHref":"https://www.osgeo.cn/list/gzgls",
             "style":"normal"
         },
         {
             "title":"社会统计",
-            "titleImgUrl":"../wshgeo/settings/img/pic/down.gif",
-            "bodyImgUrl":"../wshgeo/settings/img/pic/housePrice.jpg",
+            "titleImgUrl":"../settings/img/pic/down.gif",
+            "bodyImgUrl":"../settings/img/pic/housePrice.jpg",
             "bodyHref":"http://gi.mnr.gov.cn/201910/P020191022357640179880.pdf",
             "style":"normal"
         },
         {
             "title":"自然风景",
             "imgUrl":"",
-            "titleImgUrl":"../wshgeo/settings/img/pic/down.gif",
-            "bodyImgUrl":"../wshgeo/settings/img/bg/5.jpg",
+            "titleImgUrl":"../settings/img/pic/down.gif",
+            "bodyImgUrl":"../settings/img/bg/5.jpg",
             "bodyHref":"#",
             "style":"normal"
         }
