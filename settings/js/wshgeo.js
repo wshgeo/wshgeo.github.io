@@ -42,7 +42,7 @@
             tabParamter.tabWidth = documentWidth * (tabParamter.tabWidthScaler) -10;
             tabParamter.maxHeight = (documentWidth < 500) ? "350" : "9999";
             tabParamter.tabHeight = tabParamter.tabWidth * 0.75;
-            var tabHtmlStr = "<div class='tab "+ tabParamter.className +"' style='width:"+ tabParamter.tabWidth +"px;height:"+ tabParamter.tabHeight +"px;min-width:300px;min-height:225px;max-height:"+ tabParamter.maxHeight +"px;'>";
+            var tabHtmlStr = "<div class='tab "+ tabParamter.className +"' style='width:"+ tabParamter.tabWidth +"px;height:"+ tabParamter.tabHeight +"px;min-width:250px;min-height:187.5px;max-height:"+ tabParamter.maxHeight +"px;'>";
             tabHtmlStr += "<div class='tab-normal-title'><table align='center'><tr><td>"+ tabParamter.title +"</td></tr><tr><td><img src='"+ tabParamter.titleImgUrl +"'></img></td></tr></table></div>"
             tabHtmlStr += "<a class='tab-normal-body' href='"+ tabParamter.bodyHref +"'><table align='center'><tr><td><img src='"+ tabParamter.bodyImgUrl +"'></img></td></tr></table></a>"
             tabHtmlStr += "</div>"
