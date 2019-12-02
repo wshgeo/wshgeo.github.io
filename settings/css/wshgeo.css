@@ -1,3 +1,6 @@
+html,body,table,tr,td,div,a,img{
+    padding: 0px;
+}
 .head-title{
     box-shadow: 0 2px 10px 1px #9E9E9E;
 }
@@ -7,7 +10,7 @@
     text-align: center;
     display:inline-block;
     float: left;
-    margin-bottom: 8%;
+    margin-bottom: 7%;
 }
 .tab-normal a{
     text-decoration: none;
@@ -32,4 +35,111 @@
 }
 .tab-normal-body img{
     width:100%;
+}
+.tab-small{
+    width:25%;
+    height:100%;
+    text-align: center;
+    display:inline-block;
+    float: left;
+    margin-bottom: 5%;
+}
+.tab-small a{
+    text-decoration: none;
+    color: black;
+}
+.tab-small-title{
+    width:100%;
+    height:12%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.tab-small-title img{
+    height:20px;
+    margin:0px;
+}
+.tab-small-body :hover{
+    background-color: #ff5722b8;
+}
+.tab-small-body table{
+    border:1px solid #ccc;
+    width: 100%;
+    height: 100%;
+}
+.tab-small-body img{
+    width:100%;
+}
+@media screen and (max-width: 700px) {
+    html,body,table,tr,td,div,a,img{
+        padding: 0px;
+    }
+    .head-title{
+        box-shadow: 0 2px 10px 1px #9E9E9E;
+    }
+    .tab-normal{
+        width:50%;
+        height:100%;
+        text-align: center;
+        display:inline-block;
+        float: left;
+        margin-bottom: 15%;
+    }
+    .tab-normal a{
+        text-decoration: none;
+        color: black;
+    }
+    .tab-normal-title{
+        width:100%;
+        height:12%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .tab-normal-title img{
+        height:20px;
+        margin:0px;
+    }
+    .tab-normal-body :hover{
+        background-color: #ff5722b8;
+    }
+    .tab-normal-body table{
+        border:1px solid #ccc;
+        width: 100%;
+        height: 100%;
+    }
+    .tab-normal-body img{
+        width:100%;
+    }
+    .tab-small{
+        width:25%;
+        height:100%;
+        text-align: center;
+        display:inline-block;
+        float: left;
+        margin-bottom: 15%;
+    }
+    .tab-small a{
+        text-decoration: none;
+        color: black;
+    }
+    .tab-small-title{
+        width:100%;
+        height:12%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .tab-small-title img{
+        height:20px;
+        margin:0px;
+    }
+    .tab-small-body :hover{
+        background-color: #ff5722b8;
+    }
+    .tab-small-body table{
+        border:1px solid #ccc;
+        width: 100%;
+        height: 100%;
+    }
+    .tab-small-body img{
+        width:100%;
+    }
 }
